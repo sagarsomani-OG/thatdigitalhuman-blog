@@ -21,7 +21,7 @@ SLUG: <hyphenated-lowercase-slug-derived-from-title>
 """
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.8-flash",
     contents=prompt
 )
 
